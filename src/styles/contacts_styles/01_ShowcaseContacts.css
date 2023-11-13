@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900;9..40,1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900;9..40,1000&display=swap");
+.showcase-contacts {
+  background-color: #F0EFE9;
+}
+.showcase-contacts .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.showcase-contacts .container .content {
+  padding-top: 80px;
+  text-align: center;
+}
+.showcase-contacts .container .content h1 {
+  font-family: "DM Sans", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-weight: 700;
+  font-size: 45px;
+}
+@media (min-width: 768px) {
+  .showcase-contacts .container .content h1 {
+    font-size: 70px;
+  }
+}
+@media (min-width: 1400px) {
+  .showcase-contacts .container .content h1 {
+    font-size: 85px;
+  }
+}
+.showcase-contacts .container .content p {
+  font-size: 14px;
+  padding-top: 35px;
+  padding-bottom: 50px;
+}
+@media (min-width: 768px) {
+  .showcase-contacts .container .content p {
+    font-size: 20px;
+  }
+}
+.showcase-contacts .container .content a {
+  display: block;
+  margin-bottom: 20px;
+  margin-right: 0px;
+}
+@media (min-width: 768px) {
+  .showcase-contacts .container .content a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+}
+.showcase-contacts .container ul.breadcrumbs {
+  padding: 10px 16px;
+  list-style: none;
+}
+.showcase-contacts .container ul.breadcrumbs li {
+  display: inline;
+  font-size: 16px;
+}
+.showcase-contacts .container ul.breadcrumbs li a {
+  color: #191919;
+}
+.showcase-contacts .container ul.breadcrumbs li a:hover {
+  color: #6A6C71;
+  text-decoration: underline;
+}
+.showcase-contacts .container img {
+  display: none;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+@media (min-width: 1200px) {
+  .showcase-contacts .container img {
+    display: block;
+  }
+}

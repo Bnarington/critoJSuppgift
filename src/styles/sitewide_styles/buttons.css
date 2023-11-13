@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900;9..40,1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900;9..40,1000&display=swap");
+.btn-ylw {
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  background-color: #f9d783;
+  border: 1px solid #f9d783;
+  color: #191919;
+  text-decoration: none;
+  padding: 15px 25px;
+  font-weight: 600;
+  border-radius: 25px;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out, border 0.2s ease-in-out, -webkit-text-decoration 0.25s ease-in-out;
+  transition: background-color 0.3s ease-in-out, text-decoration 0.25s ease-in-out, border 0.2s ease-in-out;
+  transition: background-color 0.3s ease-in-out, text-decoration 0.25s ease-in-out, border 0.2s ease-in-out, -webkit-text-decoration 0.25s ease-in-out;
+}
+.btn-ylw i {
+  margin-left: 8px;
+  font-size: 0.9em;
+}
+.btn-ylw:hover {
+  background-color: #191919;
+  border: 1px solid #191919;
+  color: #F0EFE9;
+  text-decoration: underline;
+}
+
+.btn-transparent {
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  background-color: transparent;
+  border: 1px solid #191919;
+  color: #191919;
+  text-decoration: none;
+  padding: 15px 25px;
+  font-weight: 600;
+  border-radius: 25px;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out, -webkit-text-decoration 0.25s ease-in-out;
+  transition: background-color 0.3s ease-in-out, text-decoration 0.25s ease-in-out;
+  transition: background-color 0.3s ease-in-out, text-decoration 0.25s ease-in-out, -webkit-text-decoration 0.25s ease-in-out;
+}
+.btn-transparent i {
+  margin-left: 8px;
+  font-size: 0.9em;
+}
+.btn-transparent:hover {
+  background-color: #191919;
+  border: 1px solid #191919;
+  color: #F0EFE9;
+  text-decoration: underline;
+}
+
+.btn-blk {
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  background-color: #191919;
+  border: 1px solid #191919;
+  color: white;
+  text-decoration: none;
+  padding: 15px 25px;
+  font-weight: 600;
+  border-radius: 25px;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out, -webkit-text-decoration 0.25s ease-in-out;
+  transition: background-color 0.3s ease-in-out, text-decoration 0.25s ease-in-out;
+  transition: background-color 0.3s ease-in-out, text-decoration 0.25s ease-in-out, -webkit-text-decoration 0.25s ease-in-out;
+}
+.btn-blk i {
+  margin-left: 8px;
+  font-size: 0.9em;
+}
+.btn-blk:hover {
+  background-color: white;
+  border: 1px solid #191919;
+  color: #191919;
+  text-decoration: underline;
+}

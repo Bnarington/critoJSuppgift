@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900;9..40,1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900;9..40,1000&display=swap");
+.call-boxes {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.call-boxes .box-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-content: center;
+  justify-content: center;
+  gap: 15px;
+}
+.call-boxes .box-grid .boxes {
+  border: #908c8c 1px solid;
+  text-align: center;
+  padding: 30px;
+}
+.call-boxes .box-grid .boxes i {
+  font-size: 1.5rem;
+}
+.call-boxes .box-grid .boxes h2 {
+  font-family: "DM Sans", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-weight: 700;
+  font-size: 22px;
+  color: #191919;
+}

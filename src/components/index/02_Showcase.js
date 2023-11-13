@@ -1,7 +1,8 @@
 import React from 'react'
+import '../../styles/index_styles/02_showcase.css'
 
-import backgroundLines from '../assets/images/background-lines.svg'
-import suitMan from '../assets/images/Image.svg'
+import backgroundLines from '../../assets/images/background-lines.svg'
+import suitMan from '../../assets/images/Image.svg'
 
 const Showcase = () => {
   return (

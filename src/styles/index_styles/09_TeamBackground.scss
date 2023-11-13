@@ -1,0 +1,95 @@
+@import "../sitewide_styles/variables";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900;9..40,1000&display=swap');
+
+.team-background{
+    background-color: #F9D783;
+    height: 1964px;
+    margin-top: 75px;
+    position: relative;
+
+    .btn-blk-extra{
+        position: absolute;
+        left: 70%;
+        top: 8.5%;
+    }
+
+    .member-pictures{
+        padding-bottom: 120px;
+        .container-extra{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+
+        }
+
+        .container-extra-extra{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            padding-top: 10px;
+
+            .info-txt{
+
+                h4{
+                    color: #191919;
+                    font-family: $headFont;
+                    font-weight: 700;
+                    font-size: 22px;
+                }
+
+                p{
+                    color:#191919b1;
+                    font-size: 16px;
+                }
+            }
+        }
+
+        .dots{
+            display: block;
+            margin: auto;
+            padding-top: 10px;
+        }
+    }
+
+    .testimonial-box{
+        background-color: white;
+        width: 75%;
+        height: 887px;
+        margin: auto;
+        .section-title{
+            text-align: center;
+        }
+
+        .testimonials{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+
+            .test-content{
+                width: 420px;
+                padding-bottom: 25px;
+                .stars{
+                    padding-bottom: 25px;
+                }
+
+                .nameandpic{
+                    display: flex;
+
+                    .text{
+                        padding-left: 15px;
+
+                        h4{
+                            font-family: $headFont;
+                            font-size: 22px;
+                            font-weight: 700;
+                        }
+
+                        p{
+                            color: #F94D1C;
+                        }
+                    }
+
+                }
+
+            }
+        }
+    }
+}

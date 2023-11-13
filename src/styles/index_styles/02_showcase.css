@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900;9..40,1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900;9..40,1000&display=swap");
+.showcase {
+  background-color: #F0EFE9;
+}
+.showcase .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.showcase .container .content {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+@media (max-width: 680) {
+  .showcase .container .content {
+    justify-content: center;
+    align-items: center;
+  }
+}
+.showcase .container .content h1 {
+  font-family: "DM Sans", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-weight: 700;
+  font-size: 28px;
+}
+@media (max-width: 680) {
+  .showcase .container .content h1 {
+    font-size: 22px;
+  }
+}
+@media (min-width: 768px) {
+  .showcase .container .content h1 {
+    font-size: 70px;
+  }
+}
+@media (min-width: 1400px) {
+  .showcase .container .content h1 {
+    font-size: 85px;
+  }
+}
+.showcase .container .content p {
+  font-size: 14px;
+  padding-top: 35px;
+  padding-bottom: 50px;
+}
+@media (min-width: 768px) {
+  .showcase .container .content p {
+    font-size: 20px;
+  }
+}
+.showcase .container .content a {
+  display: block;
+  margin-bottom: 20px;
+  margin-right: 0px;
+}
+@media (min-width: 768px) {
+  .showcase .container .content a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+}
+@media (max-width: 680px) {
+  .showcase .container .content a {
+    width: 45%;
+    margin-bottom: 50px;
+    padding: 35px;
+  }
+}
+.showcase .container img {
+  display: none;
+  margin-right: -50px;
+}
+@media (min-width: 1200px) {
+  .showcase .container img {
+    display: block;
+  }
+}

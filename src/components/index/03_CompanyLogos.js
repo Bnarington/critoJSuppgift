@@ -1,10 +1,12 @@
 import React from 'react'
+import '../../styles/index_styles/03_companylogos.css'
 
-import Paperz from '../assets/images/paperz.svg'
-import Dorfus from '../assets/images/dorfus.svg'
-import Martino from '../assets/images/martino.svg'
-import Square from '../assets/images/square.svg'
-import Gobana from '../assets/images/gobona.svg'
+
+import Paperz from '../../assets/images/paperz.svg'
+import Dorfus from '../../assets/images/dorfus.svg'
+import Martino from '../../assets/images/martino.svg'
+import Square from '../../assets/images/square.svg'
+import Gobana from '../../assets/images/gobona.svg'
 
 const companyLogos = () => {
   return (

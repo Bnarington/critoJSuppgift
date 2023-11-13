@@ -1,0 +1,103 @@
+@import "../sitewide_styles/variables";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900;9..40,1000&display=swap');
+
+.founder-box{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+
+    .blue-box-parent{
+        display:none;
+        position: relative;
+        width: 1320px;
+        height: 615px;
+        justify-content: center;
+       
+    
+        @media (min-width: 1200px) {
+            display: flex;
+        }
+    
+        img{
+            height: 615px;
+            width: auto;
+    
+        }
+    
+        .blue-box{
+            width: 368px;
+            height: 180px;
+            padding:20px;
+            background-color: #BEEBFF;
+            border: #BEEBFF solid 2px;
+            position: absolute;
+            bottom: 15px;
+            left: 8px;
+            font-family: $mainFont;
+            font-weight: 400;
+            color: #191919;
+    
+            .span-name{
+                font-size: 18px;
+                font-weight: 600;
+            }
+    
+            .span-orange{
+                color: #F94D1C;
+                font-size: 16px;
+                font-weight: 500;
+            }
+        }
+    
+        .about-company-box{
+            width: 532px;
+            height: 589px;
+            margin-left: 150px;
+    
+            .section-title{
+                padding-top: 70px;
+                padding-bottom: 0px;
+            }
+    
+            .about-company-lorem1{
+                opacity: 0.7;
+                padding-bottom: 30px;
+                padding-top: 30px;
+            }
+    
+            .about-company-lorem2{
+                opacity: 0.7;
+                padding-bottom: 30px;
+            }
+
+            .btn-intro{
+                background-color: white;
+                border: none;
+                text-align: center;
+                color: #191919;
+                text-decoration: none;
+
+                span{
+                    margin-right: 10px;
+                    margin-left: 25px;
+                    padding: 0px;
+                    border-radius: 50%;
+    
+                    i{
+                        padding: 1rem;
+                        border: 1px solid #191919;
+                        border-radius: 50%;
+
+                        &:hover{
+                            background-color: #191919;
+                            border:#191919 solid 2px;
+                            color: white;
+    
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
