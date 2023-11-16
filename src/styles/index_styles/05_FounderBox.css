@@ -63,25 +63,18 @@
   opacity: 0.7;
   padding-bottom: 30px;
 }
-.founder-box .blue-box-parent .about-company-box .btn-intro {
-  background-color: white;
-  border: none;
-  text-align: center;
-  color: #191919;
-  text-decoration: none;
-}
-.founder-box .blue-box-parent .about-company-box .btn-intro span {
+.founder-box .blue-box-parent .about-company-box span {
   margin-right: 10px;
   margin-left: 25px;
   padding: 0px;
   border-radius: 50%;
 }
-.founder-box .blue-box-parent .about-company-box .btn-intro span i {
+.founder-box .blue-box-parent .about-company-box span i {
   padding: 1rem;
   border: 1px solid #191919;
   border-radius: 50%;
 }
-.founder-box .blue-box-parent .about-company-box .btn-intro span i:hover {
+.founder-box .blue-box-parent .about-company-box span i:hover {
   background-color: #191919;
   border: #191919 solid 2px;
   color: white;

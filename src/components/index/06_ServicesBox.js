@@ -17,7 +17,7 @@ const ServicesBox = () => {
                     <div className="consulting-grid">
                         <h3>Business Advice</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ducimus laudantium nihil neque.</p>
-                        <button className="btn-intro"><i className="fa-light fa-arrow-right"></i></button>
+                        <button className="btn-intro2"><i className="fa-light fa-arrow-right"></i></button>
                     </div>
                 </div>
 
@@ -25,7 +25,7 @@ const ServicesBox = () => {
                     <div className="consulting-grid">
                         <h3>Startup Business</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ducimus laudantium nihil neque.</p>
-                        <button className="btn-intro"><span><i className="fa-light fa-arrow-right"></i></span></button>
+                        <button className="btn-intro2"><span><i className="fa-light fa-arrow-right"></i></span></button>
                     </div>
                 </div>
 
@@ -34,7 +34,7 @@ const ServicesBox = () => {
                     <div className="consulting-grid">
                         <h3>Financial Advice</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ducimus laudantium nihil neque.</p>
-                        <button className="btn-intro"><i className="fa-light fa-arrow-right"></i></button>
+                        <button className="btn-intro2"><i className="fa-light fa-arrow-right"></i></button>
                     </div>
                 </div>
 
@@ -42,7 +42,7 @@ const ServicesBox = () => {
                     <div className="consulting-grid">
                         <h3>Risk Management</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ducimus laudantium nihil neque.</p>
-                        <button className="btn-intro"><span><i className="fa-light fa-arrow-right"></i></span></button>
+                        <button className="btn-intro2"><span><i className="fa-light fa-arrow-right"></i></span></button>
                     </div>
                 </div>
             </div>    

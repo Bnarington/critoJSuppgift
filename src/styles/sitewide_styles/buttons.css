@@ -76,3 +76,34 @@
   color: #191919;
   text-decoration: underline;
 }
+
+.btn-login {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.btn-intro {
+  background-color: white;
+  border: none;
+  text-align: center;
+  color: #191919;
+  text-decoration: none;
+}
+
+.btn-intro2 {
+  border: none;
+  text-align: center;
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  float: right;
+  font-weight: 700;
+  padding: 0px;
+  border: 1px solid #191919;
+  border-radius: 50%;
+}
+.btn-intro2 i {
+  padding: 1rem;
+  border: 1px solid #191919;
+  border-radius: 50%;
+}
