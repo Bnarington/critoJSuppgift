@@ -79,7 +79,6 @@
     }
 }
 
-
 .btn-login{
     padding-top: 12px;
     padding-bottom: 12px;
@@ -111,4 +110,12 @@
         border-radius: 50%;
 
     }
+}
+
+.btn-features{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    width: 100%;
 }

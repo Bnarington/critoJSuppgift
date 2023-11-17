@@ -11,10 +11,6 @@
 .features-box .section-title {
   padding-top: 0px;
 }
-.features-box .section-title .btn-ylw {
-  margin-top: 25px;
-  width: 100%;
-}
 @media (min-width: 1200px) {
   .features-box {
     display: flex;

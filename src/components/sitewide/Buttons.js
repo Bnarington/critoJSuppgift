@@ -17,6 +17,8 @@ const Buttons = ({type, url, title}) => {
                 return 'btn-intro'
             case 'round-intro':
                 return 'btn-intro2'
+            case 'features-btn':
+                return 'btn-ylw btn-features'
         }
     }
 

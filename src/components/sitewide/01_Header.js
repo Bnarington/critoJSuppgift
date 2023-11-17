@@ -48,14 +48,14 @@ const Header = () => {
 
           <div className="mainmenu pt-2">
             <nav>
-              <a className="active" href="index.html">
+              <a className="active" href="/">
                 Home
               </a>
               <a href="/services">Services</a>
               <a href="/news">News</a>
               <a href="/contact">Contact</a>
             </nav>
-            <Buttons type="login" title="login" url="/login" />
+            <Buttons type="login" title="Login" url="/login" />
           </div>
         </div>
       </div>
